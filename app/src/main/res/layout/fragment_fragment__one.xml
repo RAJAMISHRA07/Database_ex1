@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#564"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.database_ex1.Fragment_One">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:backgroundTint="#345"
+        android:hint="Enter your name"
+        android:textSize="26sp"
+        android:textColorHint="#f00"
+        android:textStyle="italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:hint="Enter your course"
+        android:textSize="26sp"
+        android:textStyle="italic"
+        android:backgroundTint="#345"
+        android:textColorHint="#f00"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/button1"
+        android:text="INSERT"
+        android:textColor="#f00"
+        android:background="#ad5"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/button2"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:background="#ad5"
+        android:textColor="#f00"
+        android:text="SHOW"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textview1"
+        android:textStyle="italic"
+
+        android:text="Database data: "/>
+</LinearLayout>
